@@ -12,7 +12,7 @@ app.use(express.static('public'));
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(msg.chat.id, "Selamat datang di TeleSquad! Klik tombol di bawah untuk buka Skuad.", {
     reply_markup: {
-      inline_keyboard: [[{ text: "Buka Skuad", web_app: { url: "https://URL-VERCEL-ANDA.vercel.app" } }]]
+      inline_keyboard: [[{ text: "Buka Skuad", web_app: { url: "tele-squad-fpl.vercel.app" } }]]
     }
   });
 });
